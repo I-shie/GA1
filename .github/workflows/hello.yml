@@ -1,10 +1,10 @@
-name: hello-world
+name: hello_world
 on: [push]
 jobs:
     hello:
         runs-on: ubuntu-latest
         steps:
-            name: create-hello
+            name: create_hello
             run: |
                 touch hello.txt
                 ls -l
