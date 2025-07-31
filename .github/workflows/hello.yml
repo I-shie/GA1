@@ -4,10 +4,9 @@ jobs:
     hello:
         runs-on: ubuntu-latest
         steps:
-            name: create_hello
-            uses: actions/checkout@v2
-            run: |
-                touch hello.txt
-                ls -l
-    
+            -   name: create_hello
+                run: |
+                    touch hello.txt
+                    ls -l
+
             
